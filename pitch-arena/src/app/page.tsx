@@ -1,6 +1,11 @@
+import HeroComponent from "@/components/hero";
 
 export default function Home() {
   return (
-    <h1>Pitch arena</h1>
+    <>
+      <main className="flex items-center justify-center w-full h-[100vh]">
+        <HeroComponent />
+      </main>
+    </>
   );
 }
