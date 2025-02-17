@@ -17,6 +17,7 @@ export default function HeroComponent() {
                             />
                         </div>
                     </div>
+
                     <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start space-y-6 text-center lg:text-left">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-[400] tracking-tight">
                             Pitch Arena
@@ -29,8 +30,8 @@ export default function HeroComponent() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 mt-6">
                             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                                
-                                <button className="bg-[#246AAF] text-white text-base font-medium px-6 py-3 rounded-full hover:bg-blue-700 transition">
+
+                                <button className="bg-[#246AAF] text-white text-base font-medium px-6 py-3 rounded-full transition">
                                     Inscripción
                                 </button>
 
