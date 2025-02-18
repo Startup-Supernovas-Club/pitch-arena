@@ -1,7 +1,13 @@
-import Image from 'next/image'
-
+import Image from "next/image";
 
 export default function HeroComponent() {
+    const scrollToSection = (id: string) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <section className="min-h-screen w-full flex items-center justify-center bg-background">
             <div className="container px-4 md:px-6 py-10">
@@ -29,21 +35,23 @@ export default function HeroComponent() {
                             Pon a prueba tus habilidades en Ciencias Naturales y en Ingeniería Biomédica presentándonos tu innovadora idea de negocio.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                            <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                            <button
+                                className="bg-[#246AAF] text-white text-base font-medium px-6 py-3 rounded-full transition"
+                                onClick={() => scrollToSection("inscription")}
+                            >
+                                Inscripción
+                            </button>
 
-                                <button className="bg-[#246AAF] text-white text-base font-medium px-6 py-3 rounded-full transition">
-                                    Inscripción
-                                </button>
-
-                                <button className="border border-gray-400 text-gray-700 text-base font-medium px-6 py-3 rounded-full hover:bg-gray-100 transition">
-                                    Más Información
-                                </button>
-                            </div>
-
+                            <button
+                                className="border border-gray-400 text-gray-700 text-base font-medium px-6 py-3 rounded-full hover:bg-gray-100 transition"
+                                onClick={() => scrollToSection("rules")}
+                            >
+                                Más Información
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
