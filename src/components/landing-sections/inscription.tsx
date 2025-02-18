@@ -44,37 +44,34 @@ export default function InscriptionSection() {
             rel="noopener noreferrer"
             className="mt-4 w-full sm:w-[12rem] flex items-center justify-center gap-2 bg-[#246AAF] text-white p-3 rounded-full text-sm md:text-[15px] font-medium transition hover:bg-lightGray hover:text-blue cursor-pointer"
           >
-            Inscribirse ahora <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
+            Inscripción <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
           </a>
         </article>
 
-        <article className="flex flex-col justify-between bg-gray-100 rounded-xl p-6 sm:p-8 shadow-md w-full lg:w-1/2">
+
+        <article className="flex flex-col justify-center gap-8 bg-gray-100 rounded-xl p-6 sm:p-8 shadow-md w-full lg:w-1/2">
           <div className="flex items-center gap-3">
             <CheckCircle className="text-blue-500 w-6 h-6 md:w-7 md:h-7" />
             <h3 className="text-lg md:text-xl font-semibold text-gray-900">
-              Este evento es válido para Sellos Azules
+              Este evento es válido para <b className="text-blue">Sellos Azules</b>
             </h3>
           </div>
-          <p className="text-gray-700 mt-4 flex items-center gap-3 text-sm md:text-base">
-            <CalendarDays className="w-5 h-5 md:w-6 md:h-6 text-gray-500" />
-            Lee las fechas e indicaciones para asistir.
-          </p>
-          <p className="text-gray-700 mt-2 flex flex-wrap items-center gap-2 text-sm md:text-base">
-            <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-gray-500" />
-            <span className="inline-flex items-center gap-2">
-              Entra a
-              <a
+
+          <div className="flex items-center gap-3">
+            <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-gray-500 flex-shrink-0" />
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900">
+              Si deseas asistir al evento entra a               
+                <a
                 href="https://www.eventbrite.es/e/summit-de-innovacion-emprendimiento-y-sostenibilidad-startup-supernovas-tickets-1111628935069"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 font-medium hover:text-blue-700 transition-colors"
-              >
-                Eventbrite
-              </a>
-              y confirma tu asistencia.
-            </span>
-          </p>
+                className="text-blue font-bold hover:text-blue-700 transition-colors"
+              > Eventbrite
+              </a> y confirma tu asistencia
+            </h3>
+          </div>
         </article>
+
       </div>
     </section>
   );
