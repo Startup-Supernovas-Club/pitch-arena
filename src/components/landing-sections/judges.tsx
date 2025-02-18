@@ -13,7 +13,7 @@ export const Judges = () => {
             <div className='flex flex-col md:flex-row gap-12'>
                   <JudgeInfo judgeName={"Briansy Angulo Gaucherand"} judgeDescription={"Coordinador de Innovación"} judgePhoto={"/images/Judge1.jpeg"}/>
                   <JudgeInfo judgeName={'Mariana Solano'} judgePhoto={"/images/judge2.jpg"} judgeDescription={"Gestora de Innovación en Parque Tec"}/>
-                  <JudgeInfo judgeName={'Alonso Morales'} judgePhoto={"/images/judge3.png"} judgeDescription={"Experto en Negocios Digitales y Mercadeo"}/>
+                  <JudgeInfo judgeName={'Alonso Morales'} judgePhoto={"/images/judge3.PNG"} judgeDescription={"Experto en Negocios Digitales y Mercadeo"}/>
             </div>
           </div>
         </article>
