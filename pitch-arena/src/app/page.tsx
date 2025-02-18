@@ -1,6 +1,7 @@
 "use client"
 import HeroComponent from "@/components/landing-sections/hero";
 import InscriptionSection from "@/components/landing-sections/inscription";
+import { RulesSection } from '../components/landing-sections/rules';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
 
         <section className="flex flex-col">
           <InscriptionSection />
+          <RulesSection />
         </section>
       </main>
     </>

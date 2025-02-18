@@ -19,10 +19,10 @@ export default function HeroComponent() {
                     </div>
 
                     <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start space-y-6 text-center lg:text-left">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-[400] tracking-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-[500] tracking-tight">
                             Pitch Arena
                         </h1>
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-[400] text-[#246AAF]">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-[500] text-[#246AAF]">
                             Science and Biomedical.
                         </h2>
                         <p className="text-[#75798E] text-lg max-w-[600px] leading-relaxed">
