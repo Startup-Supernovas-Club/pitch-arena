@@ -11,7 +11,7 @@ export const Judges = () => {
         <article className="flex flex-col h-full justify-center items-center rounded-xl px-6 sm:px-8 w-full">
           <div className="w-full flex flex-col md:flex-row items-center justify-center">
             <div className='flex flex-col md:flex-row gap-12'>
-                  <JudgeInfo judgeName={"Briansy Angulo Gaucherand"} judgeDescription={"Coordinador de Innovación"} judgePhoto={"/images/Judge1.jpeg"}/>
+                  <JudgeInfo judgeName={"Briansy Angulo Gaucherand"} judgeDescription={"Coordinador de Innovación Hospital Clínica Bíblica"} judgePhoto={"/images/Judge1.jpeg"}/>
                   <JudgeInfo judgeName={'Mariana Solano'} judgePhoto={"/images/judge2.jpg"} judgeDescription={"Gestora de Innovación en Parque Tec"}/>
                   <JudgeInfo judgeName={'Alonso Morales'} judgePhoto={"/images/judge3.PNG"} judgeDescription={"Experto en Negocios Digitales y Mercadeo"}/>
             </div>
