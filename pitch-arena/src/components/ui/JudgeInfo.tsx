@@ -1,16 +1,17 @@
 interface JudgeInfoProps {
   judgeName: string;
+  judgePhoto: any;
+  judgeDescription: string;
 }
 
-export const JudgeInfo = ({ judgeName }: JudgeInfoProps) => {
+export const JudgeInfo = ({ judgeName, judgePhoto, judgeDescription }: JudgeInfoProps) => {
   return (
-    <div className="avatar flex flex-col items-center justify-center gap-2">
-      <div className="w-28 lg:w-32 xl:w-36 rounded-full">
-        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+    <div className="avatar flex flex-col items-center gap-2">
+      <div className="w-32 lg:w-40 xl:w-44 rounded-full">
+        <img src={judgePhoto} />
       </div>
-      <div>
-            <p className="font-[600] text-xl">{judgeName}</p>
-      </div>
+            <p className="font-[600] text-xl text-center">{judgeName}</p>
+            <p className="font-[400] text-base text-center">{judgeDescription}</p>
     </div>
   );
 };

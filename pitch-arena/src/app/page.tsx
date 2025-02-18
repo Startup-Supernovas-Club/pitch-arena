@@ -3,6 +3,7 @@ import HeroComponent from "@/components/landing-sections/hero";
 import InscriptionSection from "@/components/landing-sections/inscription";
 import { RulesSection } from '../components/landing-sections/rules';
 import { Judges } from '../components/landing-sections/judges';
+import { Footer } from '../components/landing-sections/footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <InscriptionSection />
           <Judges />
           <RulesSection />
+          <Footer />
         </section>
       </main>
     </>
