@@ -10,7 +10,7 @@ export default function InscriptionSection() {
   return (
     <section className="w-full flex flex-col items-center py-10 px-4 sm:px-6">
       <h2 className="text-2xl md:text-3xl font-semibold text-center">
-        Inscripción
+        Inscripciones
       </h2>
       <p className="text-gray-500 text-center mt-2 text-sm md:text-base">
         Asegura tu lugar para participar y presentar tu idea innovadora
